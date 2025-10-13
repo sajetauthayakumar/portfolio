@@ -8,3 +8,34 @@ body {
 h1 {
   color: #333;
 }
+
+/* Style the header background and text */
+header {
+  background-color: #000000;   /* dark background */
+  color: white;             /* text color */
+  padding: 1rem 0;          /* space above and below */
+  text-align: center;
+}
+
+/* Remove bullets and make nav horizontal */
+nav ul {
+  list-style: none;          /* removes bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;             /* makes list items appear in a row */
+  justify-content: center;   /* centers them horizontally */
+  gap: 2rem;                 /* space between each item */
+}
+
+/* Style the links */
+nav a {
+  color: white;              /* font color */
+  text-decoration: none;     /* removes underline */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Optional: hover effect for interactivity */
+nav a:hover {
+  color: #ffcc00;            /* change link color on hover */
+}
