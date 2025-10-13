@@ -12,7 +12,7 @@ h1 {
 /* Style the header background and text */
 header {
   background-color: #CCCCFF;   /* dark background */
-  color: white;             /* text color */
+  color: black;             /* text color */
   padding: 1rem 0;          /* space above and below */
   text-align: center;
 }
