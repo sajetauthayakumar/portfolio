@@ -39,3 +39,22 @@ nav a {
 nav a:hover {
   color: #ffcc00;            /* change link color on hover */
 }
+
+
+#about {
+  font-size: 18px;      
+  line-height: 1.5;     
+  color: #333;           
+  margin: 40px 0;        
+  padding: 20px;         
+}
+ 
+h2 {
+  font-size: 28px;       
+  margin-bottom: 15px;   
+}
+
+
+#about p {
+  margin-bottom: 20px;   
+}
