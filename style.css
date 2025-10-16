@@ -11,7 +11,7 @@ h1 {
 
 /* Style the header background and text */
 header {
-  background-color: #CCCCFF;   /* dark background */
+  background-color: #3B0000;   /* dark background */
   color: black;             /* text color */
   padding: 1rem 0;          /* space above and below */
   text-align: center;
@@ -37,7 +37,8 @@ nav a {
 
 /* Optional: hover effect for interactivity */
 nav a:hover {
-  color: #ffcc00;            /* change link color on hover */
+  color: #FFE6E6;            /* change link color on hover */
+  border-bottom: 2px solid #0077cc; /* underline effect */
 }
 
 
@@ -60,3 +61,21 @@ nav a:hover {
 #about p {
   margin-bottom: 20px;   
 }
+
+#button {
+  background-color: #750000; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+nav a {
+  color: #333;
+  padding: 10px 15px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
