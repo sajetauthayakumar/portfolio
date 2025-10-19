@@ -70,3 +70,23 @@ button:hover, .btn:hover {
   transition: 0.3s;
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;              /* arrange items in a row */
+  justify-content: center;    /* or space-between / flex-start */
+  gap: 20px;                  /* spacing between links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+  transition: color 0.3s;
+}
+
